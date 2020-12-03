@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Google Portrait Fix",
+    "version": "1.0",
+    "author": "Tim Weißenfels",
+
+    "description": "Fixes Googles layout in portrait mode on Full HD monitors. This extension uses only CSS (content script).",
+
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.google.de/search*",
+                "*://*.google.com/search*"
+            ],
+            "css": ["fix.css"]
+        }
+    ]
+}

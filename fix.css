@@ -1,0 +1,23 @@
+@media (orientation: portrait) and (max-width: 1280px) {
+    #center_col {
+        margin-left: 50px !important;
+        margin-right: 42px;
+    }
+
+    #rhs {
+        margin-left: 760px;
+    }
+
+    #top_nav, #searchform, #fbar, .appbar {
+        min-width: auto;
+        max-width: 100vw;
+    }
+
+    #fbar > .fbar > div {
+        margin-left: 50px;
+    }
+
+    #slim_appbar {
+        margin-left: 50px;
+    }
+}
